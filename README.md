@@ -9,7 +9,7 @@ with Cocotb (Python). 3rd-year individual project, University of Sheffield.
 A vector co-processor to accelerate operations common in machine learning, such as parallel vector arithmetic [e.g. element-wise add/multiply and multiply-accumulate]. Planned future work: integrating the accelerator with a RISC-V core.
 
 ## Design so far
-- **Vector register file (`rtl/vreg.sv`):** [2 banks x 8 registers × 4 elements × 32 bits, 2 read ports, 1 write port]
+- **Vector register file (`rtl/vreg.sv`):** [8 vector registers, each 256 bits (8 × 32-bit elements). Each register is stored as two 128-bit banks: bank 0 holds the lower 4 elements and bank 1 the upper 4. The datapath processes one 4-lane bank per pass. Two read ports, one write port; combinational reads, synchronous writes.]
 
 ## Verification
 Testbenches in `tb/` use Cocotb with a Python runner.
