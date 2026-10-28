@@ -15,7 +15,7 @@ A vector co-processor to accelerate operations common in machine learning, such 
 Testbenches in `tb/` use Cocotb with a Python runner.
 - Basic read/write tests for the register file. Tests: writing specified test data to chosen bank and register, data is then read from that register and compared to the expected value
 
-Run: `python tb/test_runner.py` (requires Python, Cocotb and [Icarus Verilog / Verilator]).
+Run: `python tb/test_runner.py` (requires Python, Cocotb and Icarus Verilog).
 
 ## Roadmap
 - [ ] Vector ALU
