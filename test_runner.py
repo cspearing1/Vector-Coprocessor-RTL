@@ -9,9 +9,9 @@ def test_vreg_runner():
 
     #Run the cocotb simulation
     run(
-        verilog_sources=[os.path.join(proj_path, "vreg.sv")],
-        toplevel="vreg",
-        module="test_vreg",
+        verilog_sources=[os.path.join(proj_path, "valu.sv")],
+        toplevel="valu",
+        module="test_valu",
         simulator="icarus",
         compile_args=["-g2012"],
     )

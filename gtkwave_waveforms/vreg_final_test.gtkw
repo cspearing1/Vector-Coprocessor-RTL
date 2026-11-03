@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Oct 28 15:42:48 2026
+[*]
+[dumpfile] "C:\Users\spear\OneDrive\Desktop\backup-001\backup\uni\Year 3\Individual Project\Vector Coprocessor RTL\gtkwave_waveforms\sim_build\vreg.vcd"
+[savefile] "C:\Users\spear\OneDrive\Desktop\backup-001\backup\uni\Year 3\Individual Project\Vector Coprocessor RTL\gtkwave_waveforms\vreg_final_test.gtkw"
+[timestart] 160150
+[size] 2048 1209
+[pos] -217 -217
+*-11.000000 176250 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 367
+@28
+vreg.clk
+vreg.wr_en
+vreg.wr_bank_sel
+@24
+vreg.wr_addr[2:0]
+@22
+vreg.wr_data[127:0]
+@28
+vreg.rd_bank_sel
+@24
+vreg.rd_addr_a[2:0]
+vreg.rd_addr_b[2:0]
+@22
+vreg.rd_data_a[127:0]
+vreg.rd_data_b[127:0]
+[pattern_trace] 1
+[pattern_trace] 0

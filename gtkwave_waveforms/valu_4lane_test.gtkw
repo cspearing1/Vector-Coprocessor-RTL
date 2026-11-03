@@ -1,0 +1,57 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Nov 03 11:49:14 2026
+[*]
+[dumpfile] "C:\Users\spear\OneDrive\Desktop\backup-001\backup\uni\Year 3\Individual Project\Vector Coprocessor RTL\gtkwave_waveforms\sim_build\valu.vcd"
+[savefile] "C:\Users\spear\OneDrive\Desktop\backup-001\backup\uni\Year 3\Individual Project\Vector Coprocessor RTL\gtkwave_waveforms\valu_4lane_test.gtkw"
+[timestart] 0
+[size] 2048 1209
+[pos] -35 -35
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] valu.
+[sst_width] 197
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 367
+@200
+-ALU Lane 0
+@24
+valu.alu_op[1:0]
+valu.g_lane[0].a_lane[31:0]
+valu.g_lane[0].b_lane[31:0]
+valu.result_lane0[31:0]
+@200
+-ALU Lane 1
+@24
+[color] 1
+valu.alu_op[1:0]
+[color] 1
+valu.g_lane[1].a_lane[31:0]
+[color] 1
+valu.g_lane[1].b_lane[31:0]
+[color] 1
+valu.result_lane1[31:0]
+@200
+-ALU Lane 2
+@24
+[color] 5
+valu.alu_op[1:0]
+[color] 5
+valu.g_lane[2].a_lane[31:0]
+[color] 5
+valu.g_lane[2].b_lane[31:0]
+[color] 5
+valu.result_lane2[31:0]
+@200
+-ALU Lane 3
+@24
+[color] 3
+valu.alu_op[1:0]
+[color] 3
+valu.g_lane[3].a_lane[31:0]
+[color] 3
+valu.g_lane[3].b_lane[31:0]
+[color] 3
+valu.result_lane3[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="cocotb tests"><testsuite name="test_valu" errors="0" failures="1" skipped="0" tests="1" time="0.000" timestamp="2026-11-02T18:29:39.994904+00:00" hostname="The_Bookening"><testcase classname="test_valu" name="test_valu" time="0.000"><failure message="cannot access local variable 'expected_result' where it is not associated with a value" type="UnboundLocalError">Traceback (most recent call last):
+  File "C:\Users\spear\OneDrive\Desktop\backup-001\backup\uni\Year 3\Individual Project\Vector Coprocessor RTL\test_valu.py", line 45, in test_valu
+    expected_result |= res_lane &lt;&lt; (lane * 32)  # Shift the result to the correct lane position
+    ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'expected_result' where it is not associated with a value
+</failure><properties><property name="cocotb" value="True" /><property name="random_seed" value="1793644179" /><property name="file" value="C:\Users\spear\OneDrive\Desktop\backup-001\backup\uni\Year 3\Individual Project\Vector Coprocessor RTL\test_valu.py" /><property name="line" value="6" /><property name="sim_time_unit" value="ns" /><property name="sim_time_start" value="0.0" /><property name="sim_time_stop" value="20.0" /><property name="sim_time_duration" value="20.0" /><property name="sim_time_ratio" value="51533.13499024523" /></properties><system-err>Test failed with COCOTB_RANDOM_SEED=1793644179
+</system-err></testcase></testsuite></testsuites>
